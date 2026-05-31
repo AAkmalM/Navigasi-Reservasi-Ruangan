@@ -7,6 +7,31 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Navigasi & Reservasi Ruangan
+
+Aplikasi web untuk mempermudah navigasi pencarian ruangan dan pengelolaan reservasi secara real-time. Sistem ini dibangun dengan Laravel sebagai backend API dan JavaScript untuk interaktivitas dinamis pada frontend.
+
+### Fitur Utama
+
+- **Navigasi & Pencarian Ruang**: Tampilan interaktif untuk mempermudah pengguna mencari lokasi dan melihat status ruangan.
+- **Reservasi Instan (Booking)**: Pengguna dapat mengajukan peminjaman ruangan secara langsung melalui sistem.
+- **Notifikasi WhatsApp**: Pengiriman konfirmasi status reservasi secara otomatis ke nomor WhatsApp pengguna.
+- **Panel Multi-Admin (Admin & Super Admin)**:
+  - **Manajemen Ruang & Reservasi**: Mengubah data ruangan, menyetujui/menolak booking, dan menghapus data.
+  - **Manajemen Akun Admin**: CRUD akun administrator tambahan oleh Super Admin.
+  - **Log Aktivitas**: Pemantauan histori tindakan yang dilakukan di dalam sistem.
+  - **Statistik & Laporan**: Grafik utilitas ruangan dan fitur ekspor laporan ke format CSV.
+  - **Pengaturan Sistem**: Konfigurasi nama instansi/sistem langsung dari panel admin.
+
+### Stack Teknologi
+
+- **Backend**: PHP / Laravel Framework
+- **Frontend**: HTML5, Vanilla CSS, JavaScript (API Fetching)
+- **Database**: MySQL
+- **Build Tool**: Vite
+
+---
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
